@@ -38,7 +38,7 @@ IPP_FILENAME = "${@ipp_filename(d)}"
 IPP_MD5 = "${@ipp_md5sum(d)}"
 
 SRCREV_FORMAT = "opencv_contrib_ipp_boostdesc_vgg"
-SRC_URI = "git://github.com/opencv/opencv.git;name=opencv;branch=master;protocol=https \
+SRC_URI = "git://github.com/opencv/opencv.git;name=opencv;branch=4.x;protocol=https \
            git://github.com/opencv/opencv_contrib.git;destsuffix=git/contrib;name=contrib;branch=master;protocol=https \
            git://github.com/opencv/opencv_3rdparty.git;branch=ippicv/master_20191018;destsuffix=git/ipp;name=ipp;protocol=https \
            git://github.com/opencv/opencv_3rdparty.git;branch=contrib_xfeatures2d_boostdesc_20161012;destsuffix=git/boostdesc;name=boostdesc;protocol=https \
